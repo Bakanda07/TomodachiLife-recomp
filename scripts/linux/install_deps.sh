@@ -146,7 +146,7 @@ else
 fi
 # the two files of suyu-emu/suyu-v0.0.4 (MIT / GPL-3.0) tools/lifter/gen_sdktest.py reads, from this project's files
 # repository (scripts/install.py SUYU_FILES: the same hashes)
-MIRROR=https://github.com/josiahg2502-glitch/TomodachiLife-recomp-files/releases/download/installer-tools
+MIRROR=https://github.com/Bakanda07/TomodachiLife-recomp-files/releases/download/installer-tools
 MII="$DEPS/suyu/src/core/hle/service/mii"
 mkdir -p "$MII/types"
 [ -f "$MII/types/raw_data.cpp" ] || fetch "$MIRROR/raw_data.cpp" "$MII/types/raw_data.cpp" 0f5b10dcde4038024fffd6079d75cd4bad8d72486efcf1ffa06e6c779803c486

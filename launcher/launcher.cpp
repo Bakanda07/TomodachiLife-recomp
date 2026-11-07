@@ -69,7 +69,7 @@ namespace {
 
 /* ------------------------------------------------------------------ paths */
 fs::path g_self, g_work, g_build, g_repo, g_ini, g_pads_ini, g_launcher_ini, g_userdata, g_saves, g_cache, g_exe, g_play_exe;
-const wchar_t* const kReleases = L"https://github.com/josiahg2502-glitch/TomodachiLife-recomp/releases";      // the player's download
+const wchar_t* const kReleases = L"https://github.com/Bakanda07/TomodachiLife-recomp/releases";      // the player's download
 
 void paths_init() {
     wchar_t p[MAX_PATH];

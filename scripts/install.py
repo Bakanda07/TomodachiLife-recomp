@@ -87,7 +87,7 @@ PKGS = ['zstandard', 'Pillow', 'pycryptodome', 'lz4']
 # until the maintainer has checked the archive and written its hash here.
 # Third-party files this project hosts itself, in the release installer-tools of its files repository (keep it): the same bytes as
 # their first source, checked by the same SHA-256 (LLVM, FFmpeg, libopus, two suyu source files)
-MIRROR = 'https://github.com/josiahg2502-glitch/TomodachiLife-recomp-files/releases/download/installer-tools/'
+MIRROR = 'https://github.com/Bakanda07/TomodachiLife-recomp-files/releases/download/installer-tools/'
 TOOLS = {   # checked 2026-10-19: SDL3 equals GitHub's own asset digest; LLVM's installer has a good signature of the
             # LLVM release key B6C8 F982 82B9 44E3 B0D5 C253 0FC3 042E 345A D05D (LLVM-9.0.0-win64.exe.sig)
     'sdl3': ('https://github.com/libsdl-org/SDL/releases/download/release-3.4.18/SDL3-devel-3.4.18-VC.zip',
